@@ -1,6 +1,6 @@
 /*
 @toolbox
-name: eample_tool
+name: example_tool
 type: lib
 */
 

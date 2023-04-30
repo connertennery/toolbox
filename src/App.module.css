@@ -1,6 +1,6 @@
 .App {
 	text-align: center;
-	background-color: hsl(104, 0%, 12%);
+	background-color: var(--color-background);
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -10,7 +10,7 @@
 }
 
 .header {
-	background-color: #77c35b;
+	background-color: var(--color-primary);
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -26,6 +26,7 @@
 
 .main {
 	display: flex;
+	flex-direction: column;
 	justify-self: center;
 	margin: auto;
 }
